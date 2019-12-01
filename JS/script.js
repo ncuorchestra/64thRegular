@@ -35,7 +35,7 @@ window.onload=function(){
                 this.classList.add('open');
     　　    });
         }else{
-            target[0].classList.add('patapata');
+         
             target[0].addEventListener("click", function(){
                 this.classList.remove('patapata');
                 this.classList.add('open');
